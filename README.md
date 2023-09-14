@@ -21,7 +21,7 @@ rv64imafdc/lp64d;@march=rv64imafdc@mabi=lp64d
 ```
 
 ### Debug Tools
-1. Use [GD32_MCU_Dfu_Tool](https://e-iot.info/e-iot-platform-hardware-software-manual/chapter-t-04.html)
+1. Use [GD32_MCU_Dfu_Tool](https://e-iot.info/e-iot-platform-hardware-software-manual/chapter-t-04.html). (only for Windows)
 2. Use JTAG debugger with OpenOCD.
     - [RV-Link](https://longan.sipeed.com/en/get_started/rv-link.html) / Jlink / FT2232H module / ...
 
