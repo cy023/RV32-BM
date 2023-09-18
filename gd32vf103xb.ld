@@ -4,7 +4,7 @@ ENTRY(Reset_Handler)
 /**
  * Reference: 
  *  GigaDevice Semiconductor Inc.
-    GD32VF103 RISC-V 32-bit MCU User Manual Revision 1.4
+ *  GD32VF103 RISC-V 32-bit MCU User Manual Revision 1.4
  *  Table 1-2. Memory map of GD32VF103 devices
  * 
  * 0x2000_8000 ----------------  ----------------- <--- `_stack_end`
@@ -22,7 +22,7 @@ ENTRY(Reset_Handler)
  *             | Flash (128KB)|  |     .text     |
  *             |              |  |               |
  *             |              |  |               |
- *             |              |  |               |
+ *             |              |  |               | <--- `Reset_Handler()`
  * 0x0000_0000 ----------------  ----------------- <--- `_text_start`
  * 
  */
